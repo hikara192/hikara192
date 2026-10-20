@@ -10,7 +10,7 @@ I'm a developer from Vitebsk, Belarus. I build small, focused things: a macOS me
 ### Now
 
 - Building **[MixBar](https://github.com/hikara192/MixBar)** — per-app volume and mute in the macOS menu bar, with no virtual audio driver.
-- Maintaining **[VSTU HOME](https://github.com/hikara192/vstu-app)** — schedules, groups, and Moodle access for VSTU students.
+- Maintaining **VSTU HOME** — a private Flutter app for VSTU students: schedules, groups, and Moodle access.
 - Exploring **Godot 4**, Core Audio, and a **[Raspberry Pi NAS](https://github.com/hikara192/NAS-server-on-raspberry-pi-)** running umbrelOS.
 
 ### Toolbox
@@ -52,9 +52,7 @@ I'm a developer from Vitebsk, Belarus. I build small, focused things: a macOS me
       </a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/hikara192/vstu-app">
-        <img src="assets/project-vstu.svg" alt="VSTU HOME — a Flutter app for VSTU students" width="100%">
-      </a>
+      <img src="assets/project-vstu.svg" alt="VSTU HOME — a private Flutter app for VSTU students" width="100%">
     </td>
   </tr>
 </table>
