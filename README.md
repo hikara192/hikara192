@@ -62,7 +62,7 @@ I'm a developer from Vitebsk, Belarus. I build small, focused things: a macOS me
 ### GitHub, lately
 
 <p align="center">
-  <img width="600" src="https://github-readme-stats.vercel.app/api?username=hikara192&amp;show_icons=true&amp;hide_border=true&amp;hide_rank=true&amp;hide=issues,contribs&amp;include_all_commits=true&amp;count_private=true&amp;card_width=600&amp;custom_title=At%20a%20glance&amp;bg_color=0C1120&amp;title_color=FF8E7A&amp;text_color=F4EFE6&amp;icon_color=6B7CFF" alt="hikara192's GitHub stats">
+  <img width="600" src="assets/stats.svg" alt="At a glance: 17 stars, 68 commits, 12 public repos, 55 contributions">
   <br><br>
   <img width="600" src="assets/languages.svg" alt="Languages I write: GDScript 62%, Dart 25%, Swift 10%, Java 2%">
 </p>
