@@ -1,0 +1,56 @@
+<svg width="600" height="300" viewBox="0 0 600 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">Escape from Dungeon — a first game made in Godot</title>
+  <desc id="d">Dark card with a dungeon map and a dotted route to the exit; GDScript, Godot, 8 stars.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="600" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101830"/>
+      <stop offset="1" stop-color="#0B1122"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF8E7A" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#FF8E7A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1" fill="#8E9BFF" opacity="0.1"/>
+    </pattern>
+    <filter id="soft" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="300" rx="18" fill="url(#card)"/>
+  <rect width="600" height="300" rx="18" fill="url(#dots)"/>
+  <rect x="0.75" y="0.75" width="598.5" height="298.5" rx="17.25" stroke="#222D4D" stroke-width="1.5"/>
+
+  <g stroke="#2B3860" stroke-width="1.5" fill="#101A33">
+    <rect x="368" y="62" width="72" height="52" rx="6"/>
+    <rect x="470" y="62" width="86" height="52" rx="6"/>
+    <rect x="368" y="140" width="72" height="28" rx="6"/>
+    <rect x="470" y="140" width="86" height="28" rx="6"/>
+    <rect x="440" y="84" width="30" height="10" fill="#0E1730"/>
+    <rect x="440" y="158" width="30" height="10" fill="#0E1730"/>
+    <rect x="400" y="114" width="10" height="26" fill="#0E1730"/>
+    <rect x="500" y="114" width="10" height="26" fill="#0E1730"/>
+  </g>
+
+  <path d="M 404 114 L 404 154 L 450 154 L 450 89 L 512 89" stroke="#FF8E7A" stroke-width="1.8" stroke-dasharray="3 5" stroke-linecap="round" fill="none"/>
+  <circle cx="404" cy="114" r="4.5" fill="#6B7CFF"/>
+  <circle cx="404" cy="114" r="9" fill="#6B7CFF" opacity="0.16"/>
+  <circle cx="512" cy="89" r="12" fill="url(#warm)" filter="url(#soft)"/>
+  <circle cx="512" cy="89" r="3.8" fill="#FF8E7A"/>
+
+  <g fill="#8E9BFF" opacity="0.5">
+    <circle cx="382" cy="76" r="1.5"/>
+    <circle cx="426" cy="104" r="1.5"/>
+    <circle cx="534" cy="76" r="1.5"/>
+    <circle cx="382" cy="154" r="1.5"/>
+    <circle cx="534" cy="154" r="1.5"/>
+  </g>
+
+  <g font-family="'Avenir Next', 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="32" y="50" font-size="13" fill="#8A93AD" letter-spacing="0.3">Godot game</text>
+    <text x="30" y="212" font-size="36" font-weight="700" fill="#F4EFE6" letter-spacing="-1.2">Escape from Dungeon</text>
+    <text x="32" y="244" font-size="17" fill="#A8B2D1">My first game — built for a Godot jam.</text>
+    <text x="32" y="274" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#FF8E7A" letter-spacing="0.2">GDScript · Godot · 8 stars</text>
+  </g>
+</svg>

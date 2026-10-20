@@ -1,0 +1,55 @@
+<svg width="600" height="300" viewBox="0 0 600 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">MixBar — per-app volume mixer for the macOS menu bar</title>
+  <desc id="d">Dark card with an audio equalizer and a menu bar; Swift, Core Audio, macOS.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="600" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101830"/>
+      <stop offset="1" stop-color="#0B1122"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF8E7A" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FF8E7A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1" fill="#8E9BFF" opacity="0.1"/>
+    </pattern>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="300" rx="18" fill="url(#card)"/>
+  <rect width="600" height="300" rx="18" fill="url(#dots)"/>
+  <rect x="0.75" y="0.75" width="598.5" height="298.5" rx="17.25" stroke="#222D4D" stroke-width="1.5"/>
+
+  <ellipse cx="470" cy="120" rx="80" ry="65" fill="url(#warm)" filter="url(#soft)"/>
+
+  <rect x="372" y="58" width="188" height="30" rx="15" fill="#0D1528" stroke="#2A3557"/>
+  <g stroke="#8E9BFF" stroke-width="1.6" stroke-linecap="round" opacity="0.75">
+    <line x1="390" y1="69" x2="402" y2="69"/>
+    <line x1="390" y1="74" x2="399" y2="74"/>
+    <line x1="390" y1="79" x2="405" y2="79"/>
+  </g>
+  <circle cx="470" cy="73" r="4" stroke="#8E9BFF" stroke-width="1.4" opacity="0.75"/>
+  <rect x="524" y="68" width="18" height="10" rx="3" stroke="#FF8E7A" stroke-width="1.3" opacity="0.85"/>
+  <rect x="543" y="71" width="2" height="4" rx="1" fill="#FF8E7A" opacity="0.6"/>
+  <circle cx="512" cy="73" r="1.6" fill="#FF8E7A"/>
+
+  <g>
+    <rect x="392" y="130" width="12" height="42" rx="6" fill="#2C3A62"/>
+    <rect x="416" y="102" width="12" height="70" rx="6" fill="#35446F"/>
+    <rect x="440" y="120" width="12" height="52" rx="6" fill="#2C3A62"/>
+    <rect x="464" y="84" width="12" height="88" rx="6" fill="#FF8E7A"/>
+    <rect x="488" y="114" width="12" height="58" rx="6" fill="#2C3A62"/>
+    <rect x="512" y="96" width="12" height="76" rx="6" fill="#35446F"/>
+    <rect x="536" y="138" width="12" height="34" rx="6" fill="#2C3A62"/>
+    <line x1="384" y1="172" x2="556" y2="172" stroke="#2A3557" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+
+  <g font-family="'Avenir Next', 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="32" y="50" font-size="13" fill="#8A93AD" letter-spacing="0.3">macOS utility</text>
+    <text x="30" y="212" font-size="38" font-weight="700" fill="#F4EFE6" letter-spacing="-1.2">MixBar</text>
+    <text x="32" y="244" font-size="17" fill="#A8B2D1">Per-app volume and mute, right in the menu bar.</text>
+    <text x="32" y="274" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#FF8E7A" letter-spacing="0.2">Swift · Core Audio · macOS</text>
+  </g>
+</svg>

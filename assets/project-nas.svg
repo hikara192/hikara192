@@ -1,0 +1,57 @@
+<svg width="600" height="300" viewBox="0 0 600 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">Raspberry Pi NAS — a quiet home server on umbrelOS</title>
+  <desc id="d">Dark card with a Raspberry Pi board and three drives; Linux, Raspberry Pi 4B, 6 stars.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="600" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101830"/>
+      <stop offset="1" stop-color="#0B1122"/>
+    </linearGradient>
+    <radialGradient id="blueglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6B7CFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#6B7CFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1" fill="#8E9BFF" opacity="0.1"/>
+    </pattern>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="300" rx="18" fill="url(#card)"/>
+  <rect width="600" height="300" rx="18" fill="url(#dots)"/>
+  <rect x="0.75" y="0.75" width="598.5" height="298.5" rx="17.25" stroke="#222D4D" stroke-width="1.5"/>
+
+  <ellipse cx="470" cy="105" rx="100" ry="70" fill="url(#blueglow)" filter="url(#soft)"/>
+
+  <rect x="372" y="56" width="176" height="96" rx="10" fill="#0F2030" stroke="#2C4A5A" stroke-width="1.4"/>
+  <rect x="384" y="66" width="58" height="20" rx="3" fill="#132A3C" stroke="#2B4656"/>
+  <g fill="#F4EFE6" opacity="0.75">
+    <circle cx="392" cy="72" r="1.3"/><circle cx="400" cy="72" r="1.3"/><circle cx="408" cy="72" r="1.3"/><circle cx="416" cy="72" r="1.3"/><circle cx="424" cy="72" r="1.3"/><circle cx="432" cy="72" r="1.3"/>
+    <circle cx="392" cy="80" r="1.3"/><circle cx="400" cy="80" r="1.3"/><circle cx="408" cy="80" r="1.3"/><circle cx="416" cy="80" r="1.3"/><circle cx="424" cy="80" r="1.3"/><circle cx="432" cy="80" r="1.3"/>
+  </g>
+  <rect x="462" y="86" width="44" height="30" rx="4" fill="#132436" stroke="#2C4A5A"/>
+  <text x="484" y="105" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="8" fill="#6F83A0">4B</text>
+  <g fill="#1A3146" stroke="#2C4A5A">
+    <rect x="526" y="70" width="12" height="20" rx="2"/>
+    <rect x="526" y="98" width="12" height="20" rx="2"/>
+  </g>
+  <circle cx="524" cy="136" r="2.2" fill="#FF8E7A"/>
+  <circle cx="514" cy="136" r="2.2" fill="#6B7CFF"/>
+
+  <g>
+    <rect x="372" y="162" width="176" height="12" rx="6" fill="#101A33" stroke="#2B3860"/>
+    <rect x="372" y="180" width="176" height="12" rx="6" fill="#101A33" stroke="#2B3860"/>
+    <circle cx="534" cy="168" r="2" fill="#FF8E7A"/>
+    <circle cx="534" cy="186" r="2" fill="#6B7CFF"/>
+    <line x1="384" y1="168" x2="456" y2="168" stroke="#2A3557" stroke-width="2" stroke-linecap="round"/>
+    <line x1="384" y1="186" x2="430" y2="186" stroke="#2A3557" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <g font-family="'Avenir Next', 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="32" y="50" font-size="13" fill="#8A93AD" letter-spacing="0.3">home lab</text>
+    <text x="30" y="212" font-size="36" font-weight="700" fill="#F4EFE6" letter-spacing="-1.2">Raspberry Pi NAS</text>
+    <text x="32" y="244" font-size="17" fill="#A8B2D1">A quiet home server on umbrelOS — backups and media.</text>
+    <text x="32" y="274" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#FF8E7A" letter-spacing="0.2">Linux · Raspberry Pi 4B · 6 stars</text>
+  </g>
+</svg>

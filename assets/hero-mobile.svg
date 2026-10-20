@@ -1,0 +1,103 @@
+<svg width="640" height="520" viewBox="0 0 640 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">hikara192 — developer from Belarus</title>
+  <desc id="heroDesc">Night-blue banner with an orbit diagram: macOS tools, Flutter apps, and small worlds made in Godot.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A0F1E"/>
+      <stop offset="0.58" stop-color="#0C1428"/>
+      <stop offset="1" stop-color="#101A33"/>
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6B7CFF" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#6B7CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="salmonGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF8E7A" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FF8E7A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="moon" x1="452" y1="386" x2="492" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A9B4FF"/>
+      <stop offset="1" stop-color="#4C5BD4"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1" fill="#8E9BFF" opacity="0.14"/>
+    </pattern>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+    <style>
+      .star { animation: twinkle 5.5s ease-in-out infinite; }
+      .orbit { transform-origin: 470px 398px; animation: spin 26s linear infinite; }
+      .aurora { animation: drift 18s ease-in-out infinite alternate; }
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.18; }
+        50% { opacity: 0.85; }
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+      @keyframes drift {
+        from { transform: translate3d(0, 0, 0); }
+        to { transform: translate3d(-12px, 8px, 0); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .star, .orbit, .aurora { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="640" height="520" fill="url(#bg)"/>
+  <rect width="640" height="520" fill="url(#dots)"/>
+  <ellipse class="aurora" cx="520" cy="330" rx="230" ry="190" fill="url(#blueGlow)" filter="url(#blur)"/>
+  <ellipse class="aurora" cx="40" cy="520" rx="220" ry="150" fill="url(#salmonGlow)" filter="url(#blur)"/>
+
+  <g fill="#C9D1FF">
+    <circle class="star" cx="520" cy="54" r="1.5"/>
+    <circle class="star" cx="574" cy="92" r="1.1" style="animation-delay:-1.8s"/>
+    <circle class="star" cx="604" cy="170" r="1.3" style="animation-delay:-3.1s"/>
+    <circle class="star" cx="392" cy="66" r="1.1" style="animation-delay:-0.9s"/>
+    <circle class="star" cx="330" cy="118" r="1.2" style="animation-delay:-2.4s"/>
+    <circle class="star" cx="600" cy="300" r="1.1" style="animation-delay:-4.2s"/>
+    <circle class="star" cx="76" cy="356" r="1.2" style="animation-delay:-1.2s"/>
+  </g>
+
+  <g font-family="'Avenir Next', 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="40" y="96" font-size="15" fill="#FF8E7A">Developer from Belarus</text>
+    <text x="37" y="166" font-size="64" font-weight="800" fill="#F4EFE6" letter-spacing="-2.6">hikara192</text>
+    <text x="40" y="214" font-size="18" fill="#A8B2D1">macOS tools, Flutter apps,</text>
+    <text x="40" y="240" font-size="18" fill="#A8B2D1">and small worlds made in Godot.</text>
+    <g font-size="13" fill="#7C87AA">
+      <text x="40" y="292">Vitebsk, Belarus</text>
+      <line x1="152" y1="281" x2="152" y2="296" stroke="#2A3557" stroke-width="1"/>
+      <text x="167" y="292">HBG TEAM</text>
+      <line x1="246" y1="281" x2="246" y2="296" stroke="#2A3557" stroke-width="1"/>
+      <text x="261" y="292">t.me/hbgdev</text>
+    </g>
+  </g>
+
+  <g>
+    <circle cx="470" cy="398" r="88" stroke="#2C3A66" stroke-width="1" stroke-dasharray="2 9"/>
+    <circle cx="470" cy="398" r="64" stroke="#26325A" stroke-width="1"/>
+    <circle cx="470" cy="398" r="38" stroke="#2C3A66" stroke-width="1"/>
+
+    <g stroke="#2C3A66" stroke-width="1">
+      <line x1="470" y1="304" x2="470" y2="310"/>
+      <line x1="470" y1="486" x2="470" y2="492"/>
+      <line x1="376" y1="398" x2="382" y2="398"/>
+      <line x1="558" y1="398" x2="564" y2="398"/>
+    </g>
+
+    <circle cx="470" cy="398" r="20" fill="url(#moon)"/>
+    <circle cx="464" cy="391" r="17" fill="#C3CBFF" opacity="0.14"/>
+
+    <g class="orbit">
+      <circle cx="534" cy="398" r="3.6" fill="#FF8E7A"/>
+      <circle cx="534" cy="398" r="9" fill="#FF8E7A" opacity="0.14"/>
+    </g>
+
+    <text x="470" y="508" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="10" fill="#6F7A9E" letter-spacing="1.8">55.19° N   30.20° E</text>
+  </g>
+
+  <rect x="0.5" y="0.5" width="639" height="519" stroke="#1C2745" stroke-width="1"/>
+</svg>
