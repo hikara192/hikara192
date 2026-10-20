@@ -68,7 +68,7 @@ I'm a first-year student at VSTU (Vitebsk State Technological University) and a 
 ### GitHub, lately
 
 <p align="center">
-  <img width="600" src="assets/stats.svg" alt="At a glance: 17 stars, 68 commits, 12 public repos, 56 contributions">
+  <img width="600" src="assets/stats.svg?v=2" alt="At a glance: 17 stars, 12 public repos, 7 followers, 4 featured projects">
   <br><br>
   <img width="600" src="assets/languages.svg?v=2" alt="Languages I write: GDScript 62%, Dart 25%, Swift 10%, Java 2%; also C#, JavaScript, and Bash">
 </p>
