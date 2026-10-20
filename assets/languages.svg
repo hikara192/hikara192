@@ -1,8 +1,8 @@
-<svg width="600" height="240" viewBox="0 0 600 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<svg width="600" height="276" viewBox="0 0 600 276" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
   <title id="t">Languages I write</title>
-  <desc id="d">Share of code across public repositories: GDScript 62%, Dart 25%, Swift 10%, Java 2%, other 1%.</desc>
+  <desc id="d">Share of code across public repositories: GDScript 62%, Dart 25%, Swift 10%, Java 2%, other 1%. Also writing C#, JavaScript, and Bash.</desc>
   <defs>
-    <linearGradient id="card" x1="0" y1="0" x2="600" y2="240" gradientUnits="userSpaceOnUse">
+    <linearGradient id="card" x1="0" y1="0" x2="600" y2="276" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#101830"/>
       <stop offset="1" stop-color="#0B1122"/>
     </linearGradient>
@@ -14,9 +14,9 @@
     </clipPath>
   </defs>
 
-  <rect width="600" height="240" rx="18" fill="url(#card)"/>
-  <rect width="600" height="240" rx="18" fill="url(#dots)"/>
-  <rect x="0.75" y="0.75" width="598.5" height="238.5" rx="17.25" stroke="#222D4D" stroke-width="1.5"/>
+  <rect width="600" height="276" rx="18" fill="url(#card)"/>
+  <rect width="600" height="276" rx="18" fill="url(#dots)"/>
+  <rect x="0.75" y="0.75" width="598.5" height="274.5" rx="17.25" stroke="#222D4D" stroke-width="1.5"/>
 
   <g font-family="'Avenir Next', 'Segoe UI', Helvetica, Arial, sans-serif">
     <text x="32" y="48" font-size="19" font-weight="700" fill="#F4EFE6" letter-spacing="-0.3">Languages I write</text>
@@ -53,5 +53,11 @@
     <circle cx="35" cy="212" r="4" fill="#3A466E"/>
     <text x="48" y="216" fill="#D9DEEF">Other</text>
     <text x="128" y="216" fill="#7C87AA" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11">1%</text>
+  </g>
+
+  <line x1="32" y1="236" x2="568" y2="236" stroke="#222D4D" stroke-width="1"/>
+  <g font-family="'Avenir Next', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">
+    <circle cx="35" cy="256" r="4" fill="#6B7CFF"/>
+    <text x="48" y="260" fill="#8A93AD">Also writing <tspan fill="#F4EFE6" font-weight="600">C#</tspan>, JavaScript, and Bash</text>
   </g>
 </svg>
