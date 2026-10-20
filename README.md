@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/hikara192/hikara192/main/assets/hero-mobile.svg">
-    <img src="assets/hero.svg" alt="hikara192 — student and developer from Belarus" width="100%">
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/hikara192/hikara192/main/assets/hero-mobile.svg?v=2">
+    <img src="assets/hero.svg?v=2" alt="hikara192 — student and developer from Belarus" width="100%">
   </picture>
 </p>
 
@@ -70,7 +70,7 @@ I'm a first-year student at VSTU (Vitebsk State Technological University) and a 
 <p align="center">
   <img width="600" src="assets/stats.svg" alt="At a glance: 17 stars, 68 commits, 12 public repos, 56 contributions">
   <br><br>
-  <img width="600" src="assets/languages.svg" alt="Languages I write: GDScript 62%, Dart 25%, Swift 10%, Java 2%; also C#, JavaScript, and Bash">
+  <img width="600" src="assets/languages.svg?v=2" alt="Languages I write: GDScript 62%, Dart 25%, Swift 10%, Java 2%; also C#, JavaScript, and Bash">
 </p>
 
 ### Say hi
