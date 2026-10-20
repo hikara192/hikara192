@@ -60,7 +60,7 @@ I'm a developer from Vitebsk, Belarus. I build small, focused things: a macOS me
 ### GitHub, lately
 
 <p align="center">
-  <img width="600" src="assets/stats.svg" alt="At a glance: 17 stars, 68 commits, 12 public repos, 55 contributions">
+  <img width="600" src="assets/stats.svg" alt="At a glance: 17 stars, 68 commits, 12 public repos, 56 contributions">
   <br><br>
   <img width="600" src="assets/languages.svg" alt="Languages I write: GDScript 62%, Dart 25%, Swift 10%, Java 2%">
 </p>
