@@ -10,7 +10,7 @@ I'm a first-year student at VSTU (Vitebsk State Technological University) and a 
 ### Now
 
 - Building **[MixBar](https://github.com/hikara192/MixBar)** — per-app volume and mute in the macOS menu bar, with no virtual audio driver.
-- Building **[opencode-skills](https://github.com/hikara192/opencode-skills)** — review, release, testing and security skills for [OpenCode](https://opencode.ai), with a [tasks-cli](https://github.com/hikara192/tasks-cli) built as the test bed.
+- Building **[opencode-skills](https://github.com/hikara192/opencode-skills)** — review, release, testing and security skills for [OpenCode](https://opencode.ai).
 - Maintaining **VSTU HOME** — a private Flutter app for VSTU students: schedules, groups, and Moodle access.
 - Publishing small games on **[itch.io](https://hikara192.itch.io)** — *Mind Sync*, *data decay*, and whatever comes next.
 - Exploring **Godot 4**, Core Audio, and a **[Raspberry Pi NAS](https://github.com/hikara192/NAS-server-on-raspberry-pi-)** running umbrelOS.
@@ -65,14 +65,9 @@ I'm a first-year student at VSTU (Vitebsk State Technological University) and a 
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="100%" align="center" valign="top">
       <a href="https://github.com/hikara192/opencode-skills">
-        <img src="assets/project-opencode-skills.svg" alt="opencode-skills — reusable skills for an AI coding agent" width="100%">
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/hikara192/tasks-cli">
-        <img src="assets/project-tasks-cli.svg" alt="tasks-cli — a dependency-free task manager for the terminal" width="100%">
+        <img src="assets/project-opencode-skills.svg" alt="opencode-skills — reusable skills for an AI coding agent" width="50%">
       </a>
     </td>
   </tr>
@@ -81,7 +76,7 @@ I'm a first-year student at VSTU (Vitebsk State Technological University) and a 
 ### GitHub, lately
 
 <p align="center">
-  <img width="600" src="assets/stats.svg?v=3" alt="At a glance: 19 stars, 14 public repos, 7 followers, 6 featured projects">
+  <img width="600" src="assets/stats.svg?v=4" alt="At a glance: 19 stars, 14 public repos, 7 followers, 5 featured projects">
   <br><br>
   <img width="600" src="assets/languages.svg?v=2" alt="Languages I write: GDScript 62%, Dart 25%, Swift 10%, Java 2%; also C#, JavaScript, and Bash">
 </p>

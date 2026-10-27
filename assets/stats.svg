@@ -1,6 +1,6 @@
 <svg width="600" height="190" viewBox="0 0 600 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
   <title id="t">At a glance</title>
-  <desc id="d">19 stars earned, 14 public repositories, 7 followers, 6 featured projects.</desc>
+  <desc id="d">19 stars earned, 14 public repositories, 7 followers, 5 featured projects.</desc>
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="600" y2="190" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#101830"/>
@@ -36,7 +36,7 @@
     <text x="367" y="132" font-size="36" font-weight="700" fill="#F4EFE6" letter-spacing="-1">7</text>
     <text x="367" y="156" font-size="11" fill="#8A93AD">followers</text>
 
-    <text x="501" y="132" font-size="36" font-weight="700" fill="#F4EFE6" letter-spacing="-1">6</text>
+    <text x="501" y="132" font-size="36" font-weight="700" fill="#F4EFE6" letter-spacing="-1">5</text>
     <text x="501" y="156" font-size="11" fill="#8A93AD">featured projects</text>
   </g>
 </svg>
