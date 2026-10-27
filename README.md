@@ -5,11 +5,12 @@
   </picture>
 </p>
 
-I'm a first-year student at VSTU (Vitebsk State Technological University) and a developer from Vitebsk, Belarus. I build small, focused things: a macOS menu-bar mixer, a Flutter app for my university, and games in Godot. I like software that feels quiet, fast, and a little hand-made.
+I'm a first-year student at VSTU (Vitebsk State Technological University) and a developer from Vitebsk, Belarus. I build small, focused things: a macOS menu-bar mixer, a Flutter app for my university, games in Godot, and skills for AI coding agents. I like software that feels quiet, fast, and a little hand-made.
 
 ### Now
 
 - Building **[MixBar](https://github.com/hikara192/MixBar)** — per-app volume and mute in the macOS menu bar, with no virtual audio driver.
+- Building **[opencode-skills](https://github.com/hikara192/opencode-skills)** — review, release, testing and security skills for [OpenCode](https://opencode.ai), with a [tasks-cli](https://github.com/hikara192/tasks-cli) built as the test bed.
 - Maintaining **VSTU HOME** — a private Flutter app for VSTU students: schedules, groups, and Moodle access.
 - Publishing small games on **[itch.io](https://hikara192.itch.io)** — *Mind Sync*, *data decay*, and whatever comes next.
 - Exploring **Godot 4**, Core Audio, and a **[Raspberry Pi NAS](https://github.com/hikara192/NAS-server-on-raspberry-pi-)** running umbrelOS.
@@ -63,19 +64,31 @@ I'm a first-year student at VSTU (Vitebsk State Technological University) and a 
       <img src="assets/project-vstu.svg" alt="VSTU HOME — a private Flutter app for VSTU students" width="100%">
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/hikara192/opencode-skills">
+        <img src="assets/project-opencode-skills.svg" alt="opencode-skills — reusable skills for an AI coding agent" width="100%">
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/hikara192/tasks-cli">
+        <img src="assets/project-tasks-cli.svg" alt="tasks-cli — a dependency-free task manager for the terminal" width="100%">
+      </a>
+    </td>
+  </tr>
 </table>
 
 ### GitHub, lately
 
 <p align="center">
-  <img width="600" src="assets/stats.svg?v=2" alt="At a glance: 17 stars, 12 public repos, 7 followers, 4 featured projects">
+  <img width="600" src="assets/stats.svg?v=3" alt="At a glance: 19 stars, 14 public repos, 7 followers, 6 featured projects">
   <br><br>
   <img width="600" src="assets/languages.svg?v=2" alt="Languages I write: GDScript 62%, Dart 25%, Swift 10%, Java 2%; also C#, JavaScript, and Bash">
 </p>
 
 ### Say hi
 
-The fastest way to reach me is Telegram. I also publish games on itch.io — and I'm always up for a chat about macOS audio, Flutter, or Godot.
+The fastest way to reach me is Telegram. I also publish games on itch.io — and I'm always up for a chat about macOS audio, Flutter, Godot, or AI coding agents.
 
 <p>
   <a href="https://t.me/hbgdev"><img src="https://img.shields.io/badge/Telegram-111830?style=flat&amp;logo=telegram&amp;logoColor=FF8E7A" alt="Telegram" height="24"></a>

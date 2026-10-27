@@ -1,0 +1,62 @@
+<svg width="600" height="300" viewBox="0 0 600 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">tasks-cli — a dependency-free task manager for the terminal</title>
+  <desc id="d">Dark card with a terminal window, a task input and a checklist; Node.js, JavaScript, JSON storage.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="600" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101830"/>
+      <stop offset="1" stop-color="#0B1122"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF8E7A" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FF8E7A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1" fill="#8E9BFF" opacity="0.1"/>
+    </pattern>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="300" rx="18" fill="url(#card)"/>
+  <rect width="600" height="300" rx="18" fill="url(#dots)"/>
+  <rect x="0.75" y="0.75" width="598.5" height="298.5" rx="17.25" stroke="#222D4D" stroke-width="1.5"/>
+
+  <ellipse cx="470" cy="130" rx="80" ry="68" fill="url(#warm)" filter="url(#soft)"/>
+
+  <rect x="356" y="100" width="212" height="172" rx="14" fill="#0D1528" stroke="#2A3557"/>
+  <line x1="356" y1="130" x2="568" y2="130" stroke="#1E2844" stroke-width="1.4"/>
+  <circle cx="370" cy="115" r="4" fill="#3A4668"/>
+  <circle cx="384" cy="115" r="4" fill="#3A4668"/>
+  <circle cx="398" cy="115" r="4" fill="#3A4668"/>
+
+  <g font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5">
+    <text x="370" y="150" fill="#8E9BFF">$</text>
+    <text x="380" y="150" fill="#F4EFE6">tasks add "Buy milk"</text>
+    <text x="370" y="166" fill="#8A93AD">Added: Buy milk</text>
+  </g>
+
+  <line x1="370" y1="178" x2="554" y2="178" stroke="#1E2844" stroke-width="1.2"/>
+
+  <g>
+    <rect x="371" y="190" width="10" height="10" rx="3" stroke="#FF8E7A" stroke-width="1.5"/>
+    <polyline points="373.2,195 375.2,197.2 379,192.8" stroke="#FF8E7A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="390" y="198.5" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#6E7BA3">Ship v0.1.0</text>
+
+    <rect x="371" y="211" width="10" height="10" rx="3" stroke="#3E4A6E" stroke-width="1.5"/>
+    <text x="390" y="219.5" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#A8B2D1">Fix the lock file</text>
+
+    <rect x="371" y="232" width="10" height="10" rx="3" stroke="#3E4A6E" stroke-width="1.5"/>
+    <text x="390" y="240.5" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#A8B2D1">Publish</text>
+  </g>
+
+  <rect x="502" y="208" width="52" height="17" rx="8.5" fill="#101A33" stroke="#2A3557"/>
+  <text x="514" y="220" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="9" fill="#FF8E7A">lock</text>
+
+  <g font-family="'Avenir Next', 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="32" y="50" font-size="13" fill="#8A93AD" letter-spacing="0.3">Command-line tool</text>
+    <text x="30" y="206" font-size="38" font-weight="700" fill="#F4EFE6" letter-spacing="-1.2">tasks-cli</text>
+    <text x="32" y="238" font-size="16" fill="#A8B2D1">A task list for the terminal.</text>
+    <text x="32" y="272" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#FF8E7A" letter-spacing="0.2">Node.js · JSON storage · 0 deps</text>
+  </g>
+</svg>
