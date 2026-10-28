@@ -1,0 +1,71 @@
+<svg width="600" height="300" viewBox="0 0 600 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">Mind Sync — a Godot jam game about losing control</title>
+  <desc id="d">Dark card with a glowing sphere, orbit rings and a control meter; Godot 4, GDScript, Mini Jam 212.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="600" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101830"/>
+      <stop offset="1" stop-color="#0B1122"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFD8C9"/>
+      <stop offset="0.45" stop-color="#FF8E7A"/>
+      <stop offset="1" stop-color="#FF8E7A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF8E7A" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FF8E7A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="indigo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8E9BFF" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#8E9BFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1" fill="#8E9BFF" opacity="0.1"/>
+    </pattern>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="300" rx="18" fill="url(#card)"/>
+  <rect width="600" height="300" rx="18" fill="url(#dots)"/>
+  <rect x="0.75" y="0.75" width="598.5" height="298.5" rx="17.25" stroke="#222D4D" stroke-width="1.5"/>
+
+  <ellipse cx="470" cy="110" rx="78" ry="62" fill="url(#indigo)" filter="url(#soft)"/>
+  <circle cx="462" cy="166" r="74" fill="url(#halo)" filter="url(#soft)"/>
+
+  <g stroke="#8E9BFF" opacity="0.32">
+    <ellipse cx="462" cy="166" rx="86" ry="28" transform="rotate(-16 462 166)" stroke-width="1.2"/>
+    <ellipse cx="462" cy="166" rx="66" ry="21" transform="rotate(22 462 166)" stroke-width="1"/>
+  </g>
+
+  <circle cx="462" cy="166" r="34" fill="url(#orb)"/>
+  <circle cx="462" cy="166" r="30" fill="#FF8E7A" fill-opacity="0.22"/>
+  <circle cx="452" cy="156" r="9" fill="#FFD8C9" opacity="0.5" filter="url(#soft)"/>
+
+  <g fill="#8E9BFF">
+    <circle cx="392" cy="120" r="1.6" opacity="0.7"/>
+    <circle cx="536" cy="128" r="1.3" opacity="0.5"/>
+    <circle cx="520" cy="196" r="1.8" opacity="0.6"/>
+    <circle cx="398" cy="204" r="1.4" opacity="0.45"/>
+    <circle cx="548" cy="170" r="1.1" opacity="0.4"/>
+    <circle cx="418" cy="150" r="1.2" opacity="0.5"/>
+  </g>
+
+  <rect x="470" y="62" width="78" height="22" rx="11" fill="#0D1528" stroke="#2A3557"/>
+  <text x="509" y="77" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="9" fill="#FF8E7A" letter-spacing="0.6">MINI JAM 212</text>
+
+  <g>
+    <text x="372" y="238" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="9" fill="#6F7A9E" letter-spacing="0.6">CONTROL</text>
+    <rect x="430" y="230" width="126" height="8" rx="4" fill="#16203A"/>
+    <rect x="430" y="230" width="74" height="8" rx="4" fill="#FF8E7A"/>
+    <rect x="430" y="230" width="74" height="8" rx="4" fill="#FF8E7A" opacity="0.35" filter="url(#soft)"/>
+  </g>
+
+  <g font-family="'Avenir Next', 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="32" y="50" font-size="13" fill="#8A93AD" letter-spacing="0.3">Godot game</text>
+    <text x="30" y="196" font-size="38" font-weight="700" fill="#F4EFE6" letter-spacing="-1.2">Mind Sync</text>
+    <text x="32" y="228" font-size="16" fill="#A8B2D1">A jam game about losing control.</text>
+    <text x="32" y="262" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#FF8E7A" letter-spacing="0.2">Godot 4 · GDScript · 48h jam</text>
+  </g>
+</svg>

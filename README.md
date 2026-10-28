@@ -29,6 +29,7 @@ I'm a first-year student at VSTU (Vitebsk State Technological University) and a 
   <img src="https://img.shields.io/badge/Java-111830?style=flat&amp;logo=openjdk&amp;logoColor=6B7CFF" alt="Java" height="24">
   <img src="https://img.shields.io/badge/C%23-111830?style=flat&amp;logo=csharp&amp;logoColor=6B7CFF" alt="C#" height="24">
   <img src="https://img.shields.io/badge/JavaScript-111830?style=flat&amp;logo=javascript&amp;logoColor=6B7CFF" alt="JavaScript" height="24">
+  <img src="https://img.shields.io/badge/Node.js-111830?style=flat&amp;logo=nodedotjs&amp;logoColor=6B7CFF" alt="Node.js" height="24">
   <img src="https://img.shields.io/badge/GDScript-111830?style=flat&amp;logo=godotengine&amp;logoColor=6B7CFF" alt="GDScript" height="24">
 </p>
 <p>
@@ -37,6 +38,7 @@ I'm a first-year student at VSTU (Vitebsk State Technological University) and a 
   <img src="https://img.shields.io/badge/macOS-111830?style=flat&amp;logo=apple&amp;logoColor=FF8E7A" alt="macOS" height="24">
   <img src="https://img.shields.io/badge/Linux-111830?style=flat&amp;logo=linux&amp;logoColor=FF8E7A" alt="Linux" height="24">
   <img src="https://img.shields.io/badge/Raspberry%20Pi-111830?style=flat&amp;logo=raspberrypi&amp;logoColor=FF8E7A" alt="Raspberry Pi" height="24">
+  <img src="https://img.shields.io/badge/Git-111830?style=flat&amp;logo=git&amp;logoColor=FF8E7A" alt="Git" height="24">
 </p>
 
 ### Selected work
@@ -65,10 +67,37 @@ I'm a first-year student at VSTU (Vitebsk State Technological University) and a 
     </td>
   </tr>
   <tr>
-    <td width="100%" align="center" valign="top">
+    <td width="50%" valign="top">
       <a href="https://github.com/hikara192/opencode-skills">
-        <img src="assets/project-opencode-skills.svg" alt="opencode-skills — reusable skills for an AI coding agent" width="50%">
+        <img src="assets/project-opencode-skills.svg" alt="opencode-skills — reusable skills for an AI coding agent" width="100%">
       </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://hikara192.itch.io/mind-sync">
+        <img src="assets/project-mindsync.svg" alt="Mind Sync — a Godot jam game about losing control" width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
+
+### More projects
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://github.com/hikara192/3D-horror-godot"><b>3D Horror</b></a><br>
+      <sub>A first-person horror experiment in Godot 4.</sub><br>
+      <sub><code>Godot 4</code> · <code>GDScript</code></sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/hikara192/dream-of-scy-godot"><b>Dream of SCY</b></a><br>
+      <sub>A space scene with asteroids, planets and a black hole.</sub><br>
+      <sub><code>Godot 4</code> · <code>GDScript</code></sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/hikara192/Garages-Sub-Ghz-flipper-zero"><b>Flipper Zero tools</b></a><br>
+      <sub>Sub-GHz garage remote, Bad USB Wi-Fi payload and a password list editor.</sub><br>
+      <sub><code>Flipper Zero</code> · <code>Bad USB</code></sub>
     </td>
   </tr>
 </table>
@@ -76,7 +105,7 @@ I'm a first-year student at VSTU (Vitebsk State Technological University) and a 
 ### GitHub, lately
 
 <p align="center">
-  <img width="600" src="assets/stats.svg?v=4" alt="At a glance: 19 stars, 14 public repos, 7 followers, 5 featured projects">
+  <img width="600" src="assets/stats.svg?v=5" alt="At a glance: 19 stars, 13 public repos, 7 followers, 6 featured projects">
   <br><br>
   <img width="600" src="assets/languages.svg?v=2" alt="Languages I write: GDScript 62%, Dart 25%, Swift 10%, Java 2%; also C#, JavaScript, and Bash">
 </p>
