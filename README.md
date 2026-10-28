@@ -10,7 +10,7 @@ I'm a first-year student at VSTU (Vitebsk State Technological University) and a 
 ### Now
 
 - Building **[MixBar](https://github.com/hikara192/MixBar)** — per-app volume and mute in the macOS menu bar, with no virtual audio driver.
-- Building **[opencode-skills](https://github.com/hikara192/opencode-skills)** — review, release, testing and security skills for [OpenCode](https://opencode.ai).
+- Building **[devloop-skills](https://github.com/hikara192/devloop-skills)** — review, release, testing and security skills for [OpenCode](https://opencode.ai) and other coding agents.
 - Maintaining **VSTU HOME** — a private Flutter app for VSTU students: schedules, groups, and Moodle access.
 - Publishing small games on **[itch.io](https://hikara192.itch.io)** — *Mind Sync*, *data decay*, and whatever comes next.
 - Exploring **Godot 4**, Core Audio, and a **[Raspberry Pi NAS](https://github.com/hikara192/NAS-server-on-raspberry-pi-)** running umbrelOS.
@@ -68,8 +68,8 @@ I'm a first-year student at VSTU (Vitebsk State Technological University) and a 
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/hikara192/opencode-skills">
-        <img src="assets/project-opencode-skills.svg" alt="opencode-skills — reusable skills for an AI coding agent" width="100%">
+      <a href="https://github.com/hikara192/devloop-skills">
+        <img src="assets/project-devloop-skills.svg" alt="devloop-skills — reusable skills for an AI coding agent" width="100%">
       </a>
     </td>
     <td width="50%" valign="top">

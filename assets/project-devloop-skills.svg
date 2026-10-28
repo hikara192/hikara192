@@ -1,5 +1,5 @@
 <svg width="600" height="300" viewBox="0 0 600 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
-  <title id="t">opencode-skills — reusable workflows for an AI coding agent</title>
+  <title id="t">devloop-skills — reusable workflows for an AI coding agent</title>
   <desc id="d">Dark card with a terminal running skill commands and a list of skills; Markdown, Node.js, OpenCode.</desc>
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="600" y2="300" gradientUnits="userSpaceOnUse">
@@ -50,7 +50,7 @@
 
   <g font-family="'Avenir Next', 'Segoe UI', Helvetica, Arial, sans-serif">
     <text x="32" y="50" font-size="13" fill="#8A93AD" letter-spacing="0.3">AI tooling</text>
-    <text x="30" y="196" font-size="38" font-weight="700" fill="#F4EFE6" letter-spacing="-1.2">opencode-skills</text>
+    <text x="30" y="196" font-size="38" font-weight="700" fill="#F4EFE6" letter-spacing="-1.2">devloop-skills</text>
     <text x="32" y="228" font-size="16" fill="#A8B2D1">Reusable skills for an AI agent.</text>
     <text x="32" y="262" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#FF8E7A" letter-spacing="0.2">Markdown · Node.js · OpenCode</text>
   </g>
